@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+    <link rel="stylesheet" href="img_size.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Sizing an Image</h1>
+        <p>Increase the width of an image by clicking the press button
+            and decrease by clicking the minus button.For every action,
+            the image increases or decreases by 5px.
+        </p>
+        <img src="download.jpg" id="img">
+        <p>width: 100px</p>
+        <div class="box1">
+            <input type="button" id="a" value="-" onclick="sizeDecrease()">
+            <p id="b">5px</p>
+            <input type="button" id="c" value="+" onclick="sizeIncrease()">
+        </div>
+    </div>
+</body>
+<script src="img_size.js"></script>
+</html>

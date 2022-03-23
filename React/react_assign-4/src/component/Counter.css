@@ -1,0 +1,69 @@
+body{
+    background-color: #003366;
+}
+.box-model {
+    background-color: white;
+    width: 200px;
+    border: 15px solid white;
+    border-radius: 50px;
+    padding: 50px;
+    margin: 20px;
+    position: absolute;
+    left: 49%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.btn1{
+    width: 100%;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 5px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn2{
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+    border: 5px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 5px;
+}
+
+.fa{
+    position: absolute;
+    left: 45%;
+    top: 88%;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: orange;
+    font-style: italic;
+}
+
+.btn1:hover{
+    background-color: lightslategray;
+}
+
+.btn2:hover{
+    background-color: lightsalmon;
+}

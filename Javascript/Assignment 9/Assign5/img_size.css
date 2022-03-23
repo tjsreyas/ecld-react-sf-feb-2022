@@ -1,0 +1,37 @@
+.box {
+    background-color:  #e0e0e0;
+    width: 300px;
+    border: 15px solid white;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+  }
+  img{
+      width: 100px;
+      height: 100px;
+  }
+  .box1{
+    width: 100px;
+    background-color: white;
+    padding: 10px;
+    height: 30px;
+    margin: auto;
+    
+  }
+  #a{
+    display: inline-block;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+  }
+  #b{
+    display: inline-block;
+    font-weight: bold;
+  }
+  #c{
+    display: inline-block;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+  }
+ 
