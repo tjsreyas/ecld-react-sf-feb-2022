@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+.column {
+    float: left;
+    padding: 11px;
+    height: 360px;
+  }
+img {
+    width: 310px;
+    height: 250px;
+}
+  .column:hover {
+    background: white;
+    border: 1px solid silver;
+  }
+.App h1{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+  }
+ span{
+     float: right;
+
+ }
+ .fa {
+    font-size: 20px;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+  
+  
+  
+  
+  
