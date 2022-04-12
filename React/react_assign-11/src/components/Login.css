@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ebbaeb;
+}
+.navbar button {
+  float: none;
+  display: block;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(140, 38, 142);
+  left: 0;
+  top: 0;
+  
+}
+
+.navbar button {
+  float: right;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: rgb(140, 38, 142);
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  background-color: #ebbaeb;
+}
+
+.active {
+  background-color: #ebbaeb;
+}
+
+.container {
+  background: white;
+  max-width: 400px;
+  width: 100%;
+  margin: 120px auto;
+  text-align: center;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.loginbtn {
+  background-color: rgb(140, 38, 142);
+  color: white;
+  cursor: pointer;
+  border: 2px solid;
+  width: 50%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.login-input {
+  padding: 5px;
+  border: 2px solid;
+  width: 50%;
+  border-radius: 20px;
+}
+
+img {
+  height: 60px;
+}
+
+.message {
+  color: green;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+span {
+  color: red;
+}
+
+.logout-message {
+  color: red;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(140, 38, 142);
+  color: white;
+  text-align: center;
+
+}
+.footer button {
+  float: right;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: rgb(140, 38, 142) ;
+  cursor: pointer;
+}
+
+.buttonTrue {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  background-color: white;
+  border: none;
+  border-radius: 1px;
+  box-shadow: 0 9px #999;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 48px;
+  right: 0;
+}
+
+.buttonFalse {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: gray;
+  border: none;
+  border-radius: 1px;
+  box-shadow: 0 9px #999;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 48px;
+  right: 0;
+  
+}

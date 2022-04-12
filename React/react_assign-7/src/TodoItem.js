@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import {v4 as uuidv4} from 'uuid'
-import './Todo.css'
+import styles from  './Todo.module.css'
 import Todo from './component/Todo'
+import Login from './Login'
 class TodoItem extends Component {
   constructor(props){
     super(props)
@@ -10,8 +11,16 @@ class TodoItem extends Component {
       id:uuidv4(),
       list: [],
       editItem: false,
-      strikeThrough: []
+      strikeThrough: [],
+      isLoggedout: false
     }
+  }
+
+  handleLogout = ()=>{
+    this.setState({
+      isLoggedout : true
+    })
+    
   }
   render() {
     const handleChange = (event) =>{
@@ -66,20 +75,36 @@ class TodoItem extends Component {
        }
     
     return (
-      <div className='wrapper'>
-          <h1>Todo App</h1>
-          <input placeholder='Enter Skills' onChange={handleChange} value={this.state.value}/>
-          <button onClick={handleAddTask}>{this.state.editItem?'Edit':'Add'}</button>
-   
-          {
-            this.state.list.map(item => {
-              return(
-                <Todo key={item.id} task={item.task} handleDeleteTask={()=>handleDeleteTask(item.id)}
-                handleEditTask={()=>handleEditTask(item.id)}
-                handleToggleTask={handleToggleTask}/>
-              )
-            })
-          }
+      <div>
+        {
+        this.state.isLoggedout ? (
+                  <div>
+                      <Login/>
+                    </div>
+              ) : (
+              <div>
+                <h2>You are Successfully Logged In</h2>
+                <button className={styles.logout} onClick={this.handleLogout}>Log Out</button>
+                <div className={styles.wrapper}>
+                    <h1 className={styles.header}>Todo App</h1>
+                    <input className={styles.input} placeholder='Enter Skills' onChange={handleChange} value={this.state.value}
+                    />
+                    <button className={styles.button} onClick={handleAddTask}>{this.state.editItem?'Edit':'Add'}</button>
+             
+                    {
+                      this.state.list.map(item => {
+                        return(
+                          <Todo key={item.id} task={item.task} handleDeleteTask={()=>handleDeleteTask(item.id)}
+                          handleEditTask={()=>handleEditTask(item.id)}
+                          handleToggleTask={handleToggleTask}/>
+                        )
+                      })
+                    }
+                </div>
+                </div>
+                )
+              }
+        
       </div>
     )
   }
