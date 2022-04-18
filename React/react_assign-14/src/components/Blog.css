@@ -1,0 +1,38 @@
+.blog-container{
+    text-align: center;
+    font-weight: bold;
+    padding: 50px;
+    
+}
+
+.grid-blog {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+  }
+  
+  .blog-item1 {
+    background-color: #f6f6f6;
+    width: 100%;
+    padding: 0px 0;
+    text-align: center;
+  }
+
+  .blog-item2 {
+    
+    background-color: #f6f6f6;
+    width: 100%;
+    padding: 0px 0;
+    text-align: center;
+  }
+
+  .blog-item3 {
+    
+    background-color: #f6f6f6;
+    width: 100%;
+    padding: 0px 0;
+    text-align: center;
+  }
