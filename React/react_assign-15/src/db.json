@@ -1,0 +1,230 @@
+
+{
+    "students":
+    [{
+      "id": 1,
+      "first_name": "Cassandra",
+      "picture": "https://robohash.org/utexcepturiexpedita.png?size=50x50&set=set1",
+      "email": "ccescot0@ning.com",
+      "gender": "Female",
+      "address": "03 Vernon Hill",
+      "country": "China",
+      "phone": "469-338-5995"
+    }, {
+      "id": 2,
+      "first_name": "Uriel",
+      "picture": "https://robohash.org/autematquevoluptatibus.png?size=50x50&set=set1",
+      "email": "ubancroft1@wikispaces.com",
+      "gender": "Male",
+      "address": "790 Carberry Plaza",
+      "country": "Tanzania",
+      "phone": "369-207-1269"
+    }, {
+      "id": 3,
+      "first_name": "Auberon",
+      "picture": "https://robohash.org/consequaturreiciendiscumque.png?size=50x50&set=set1",
+      "email": "amilkin2@independent.co.uk",
+      "gender": "Male",
+      "address": "84972 Mallard Avenue",
+      "country": "Poland",
+      "phone": "615-258-5440"
+    }, {
+      "id": 4,
+      "first_name": "Fitz",
+      "picture": "https://robohash.org/teneturautsint.png?size=50x50&set=set1",
+      "email": "fvarnes3@marketwatch.com",
+      "gender": "Male",
+      "address": "45 Tennessee Terrace",
+      "country": "Venezuela",
+      "phone": "867-715-2133"
+    }, {
+      "id": 5,
+      "first_name": "Gretna",
+      "picture": "https://robohash.org/fugitdoloresvoluptas.png?size=50x50&set=set1",
+      "email": "gbrobyn4@mapy.cz",
+      "gender": "Female",
+      "address": "129 Rowland Pass",
+      "country": "China",
+      "phone": "149-221-1360"
+    }, {
+      "id": 6,
+      "first_name": "Garrard",
+      "picture": "https://robohash.org/accusantiumsintaut.png?size=50x50&set=set1",
+      "email": "galcorn5@over-blog.com",
+      "gender": "Male",
+      "address": "40187 Muir Drive",
+      "country": "United States",
+      "phone": "408-257-1286"
+    }, {
+      "id": 7,
+      "first_name": "Zarah",
+      "picture": "https://robohash.org/blanditiisliberopossimus.png?size=50x50&set=set1",
+      "email": "zlenoire6@cdc.gov",
+      "gender": "Female",
+      "address": "6323 Marcy Way",
+      "country": "Sweden",
+      "phone": "625-526-9603"
+    }, {
+      "id": 8,
+      "first_name": "Mikey",
+      "picture": "https://robohash.org/nemoexplicaboautem.png?size=50x50&set=set1",
+      "email": "mdibner7@ebay.co.uk",
+      "gender": "Male",
+      "address": "32399 Spaight Road",
+      "country": "Kazakhstan",
+      "phone": "143-975-3090"
+    }, {
+      "id": 9,
+      "first_name": "Maddi",
+      "picture": "https://robohash.org/fugitconsequaturest.png?size=50x50&set=set1",
+      "email": "mdurdle8@japanpost.jp",
+      "gender": "Female",
+      "address": "21391 Sloan Hill",
+      "country": "Brazil",
+      "phone": "198-295-7136"
+    }, {
+      "id": 10,
+      "first_name": "Yelena",
+      "picture": "https://robohash.org/architectodelectusoptio.png?size=50x50&set=set1",
+      "email": "yscamerden9@tripod.com",
+      "gender": "Female",
+      "address": "5966 Sommers Place",
+      "country": "Poland",
+      "phone": "890-829-9901"
+    }, {
+      "id": 11,
+      "first_name": "Townsend",
+      "picture": "https://robohash.org/ipsapossimusqui.png?size=50x50&set=set1",
+      "email": "tluckmana@uiuc.edu",
+      "gender": "Male",
+      "address": "129 Farragut Court",
+      "country": "China",
+      "phone": "395-664-9578"
+    }, {
+      "id": 12,
+      "first_name": "Karlis",
+      "picture": "https://robohash.org/iurequiconsequatur.png?size=50x50&set=set1",
+      "email": "krosenfeldb@yandex.ru",
+      "gender": "Male",
+      "address": "4 Carberry Way",
+      "country": "China",
+      "phone": "339-659-4711"
+    }, {
+      "id": 13,
+      "first_name": "Wade",
+      "picture": "https://robohash.org/suscipitquismodi.png?size=50x50&set=set1",
+      "email": "wfintophc@irs.gov",
+      "gender": "Male",
+      "address": "96 Myrtle Place",
+      "country": "Philippines",
+      "phone": "851-403-1175"
+    }, {
+      "id": 14,
+      "first_name": "Ron",
+      "picture": "https://robohash.org/totamquibusdamcumque.png?size=50x50&set=set1",
+      "email": "rbrittaind@github.com",
+      "gender": "Male",
+      "address": "509 Lake View Plaza",
+      "country": "Brazil",
+      "phone": "597-342-6624"
+    }, {
+      "id": 15,
+      "first_name": "Jolee",
+      "picture": "https://robohash.org/suntmodiexercitationem.png?size=50x50&set=set1",
+      "email": "jsuggatee@cnn.com",
+      "gender": "Female",
+      "address": "28 Sycamore Place",
+      "country": "Finland",
+      "phone": "220-234-8675"
+    }, {
+      "id": 16,
+      "first_name": "Worthington",
+      "picture": "https://robohash.org/perspiciatissolutanihil.png?size=50x50&set=set1",
+      "email": "wstrydef@icio.us",
+      "gender": "Male",
+      "address": "2 Mendota Way",
+      "country": "United States",
+      "phone": "507-592-2353"
+    }, {
+      "id": 17,
+      "first_name": "Hewitt",
+      "picture": "https://robohash.org/ducimushicdolorum.png?size=50x50&set=set1",
+      "email": "hdanilchevg@cocolog-nifty.com",
+      "gender": "Male",
+      "address": "13 Prairieview Alley",
+      "country": "Sweden",
+      "phone": "117-404-0101"
+    }, {
+      "id": 18,
+      "first_name": "Gabby",
+      "picture": "https://robohash.org/etquiaut.png?size=50x50&set=set1",
+      "email": "ggosalvezh@si.edu",
+      "gender": "Male",
+      "address": "1 Manitowish Crossing",
+      "country": "France",
+      "phone": "220-234-3937"
+    }, {
+      "id": 19,
+      "first_name": "Carolan",
+      "picture": "https://robohash.org/quiautsapiente.png?size=50x50&set=set1",
+      "email": "cboasti@cdbaby.com",
+      "gender": "Female",
+      "address": "82553 Green Ridge Alley",
+      "country": "Philippines",
+      "phone": "975-783-8265"
+    }, {
+      "id": 20,
+      "first_name": "Reagen",
+      "picture": "https://robohash.org/nonreprehenderitaut.png?size=50x50&set=set1",
+      "email": "reffordj@alexa.com",
+      "gender": "Male",
+      "address": "36394 Maple Wood Hill",
+      "country": "Russia",
+      "phone": "531-231-1459"
+    }, {
+      "id": 21,
+      "first_name": "Norry",
+      "picture": "https://robohash.org/nemoundein.png?size=50x50&set=set1",
+      "email": "nsavillek@businessinsider.com",
+      "gender": "Female",
+      "address": "2 Colorado Center",
+      "country": "Czech Republic",
+      "phone": "782-771-3149"
+    }, {
+      "id": 22,
+      "first_name": "Nerissa",
+      "picture": "https://robohash.org/nondoloresvoluptas.png?size=50x50&set=set1",
+      "email": "nbattinl@bluehost.com",
+      "gender": "Female",
+      "address": "99 Grover Junction",
+      "country": "Russia",
+      "phone": "683-866-3237"
+    }, {
+      "id": 23,
+      "first_name": "Rollins",
+      "picture": "https://robohash.org/quiaeumvoluptatem.png?size=50x50&set=set1",
+      "email": "rcaldecuttm@moonfruit.com",
+      "gender": "Male",
+      "address": "94 American Ash Pass",
+      "country": "China",
+      "phone": "543-107-8466"
+    }, {
+      "id": 24,
+      "first_name": "Darline",
+      "picture": "https://robohash.org/consequunturveniamnatus.png?size=50x50&set=set1",
+      "email": "dvedmoren@clickbank.net",
+      "gender": "Female",
+      "address": "0952 Mifflin Plaza",
+      "country": "Russia",
+      "phone": "760-842-5440"
+    }, {
+      "id": 25,
+      "first_name": "Nikolaus",
+      "picture": "https://robohash.org/explicaboconsequaturnecessitatibus.png?size=50x50&set=set1",
+      "email": "nthorneyworko@surveymonkey.com",
+      "gender": "Male",
+      "address": "0446 Pine View Way",
+      "country": "United States",
+      "phone": "858-651-2617"
+    }]
+    }
