@@ -1,0 +1,32 @@
+.login-user{
+    border-radius: 10px;
+    border: 5px solid #17a2b8;
+    text-align: center;
+    width: 50%;
+    margin-top: 5%;
+    padding: 50px;
+    margin-left: 25%;
+    
+}
+
+.loginbtn-div{
+    margin: 10px;
+}
+
+.login-btn{
+    background-color: #17a2b8;
+    color: white;
+    padding: 5px;
+    width: 20%;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  font-weight: bold;
+}

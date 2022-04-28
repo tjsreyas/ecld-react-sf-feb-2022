@@ -114,3 +114,9 @@
   margin-top: 20px;
 }
 
+.logout-btn{
+  float: right;
+  background-color: #17a2b8;
+  color: white;
+  font-weight: bold;
+}

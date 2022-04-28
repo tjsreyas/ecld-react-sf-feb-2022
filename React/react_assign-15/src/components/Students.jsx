@@ -1,7 +1,8 @@
 import axios from "axios";
 import React, { useEffect } from "react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { useAuth } from "./Auth";
 import "./Student.css";
 export const Students = () => {
   const [items, setItems] = useState([]);
@@ -12,6 +13,8 @@ export const Students = () => {
   const [sortFilterValue, setSortFilterValue] = useState("");
   const [operation, setOperation] = useState("");
   const sortOptions = ["first_name", "email", "country"];
+  const auth = useAuth();
+  const navigate = useNavigate();
 
   useEffect(() => {
     getComments(0, 6, 0);
@@ -128,6 +131,11 @@ export const Students = () => {
     getComments(0, 6, 0);
   };
 
+  const handleLogout = () => {
+    auth.logout();
+    navigate("/");
+  };
+
   const renderPagination = () => {
     if (items.length < 6 && currentPage === 0) return null;
     if (currentPage === 0) {
@@ -201,6 +209,7 @@ export const Students = () => {
 
   return (
     <div>
+      <button className="logout-btn" onClick={handleLogout}>Logout</button>
       <form className="input-search" onSubmit={handleSearch}>
         <input
           type="text"
